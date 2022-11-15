@@ -81,6 +81,7 @@ footer{
     display: grid;
     place-content: center;
     position: absolute;
+    width: 100%;
     bottom: 0px;
     text-align:center;
     
