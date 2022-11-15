@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    display: grid;
+    place-content: center;
+}
+
+html{
+    max-width: 100vw;
+    margin:auto;
+    background: rgba(5, 6, 2, 0.31);
+}
+body{
+    background-color: rgba(75, 182, 182, 0.854);
+    height: 100vh;
+    position:absolute;
+    width: 100%;
+    
+}
+p{
+    text-align: center;
+    margin: 2rem auto 2rem auto;
+    font-size: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 69.5vh;
+}
+
+button {
+    border: 2px solid rgba(0, 0, 0, 0.412);
+    border-radius: 8px;
+    /* height: 5rem; */
+    background-color:rgb(255, 204, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    }
+
+#joke {
+    position:absolute;
+    bottom: 6.5em;
+    width: 6rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    
+    /* right: 45vw;    */
+}
+#clear {
+    position:absolute;
+    bottom: 3.5em;
+    width: 6rem;
+    height: 3rem;
+    /* right: 46.5vw;    */
+}
+
+.show-result {
+    display: grid;
+    place-content: center;
+    height:30vh;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+
+    background-color: rgba(239, 194, 194, 0.709);
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    bottom: 0px;
+    text-align:center;
+    
+}
